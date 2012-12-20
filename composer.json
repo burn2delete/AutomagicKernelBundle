@@ -1,0 +1,6 @@
+{
+    "name": "airos/automagickernelbundle",
+    "autoload": {
+        "psr-0": { "Airos\\AutomagicKernelBundle": "src/" }
+    }
+}
