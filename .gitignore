@@ -10,4 +10,14 @@ web/bundles/*
 
 # Configuration files
 app/config/parameters.ini
-app/config/parameters.yml
+
+# OS Files
+.DS_Store
+.project
+
+# Composer Files
+*/composer*
+
+# IDE Files
+.c9revisions
+.settings
