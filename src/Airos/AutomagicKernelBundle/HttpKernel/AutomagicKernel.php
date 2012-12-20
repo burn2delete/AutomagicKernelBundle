@@ -16,7 +16,6 @@ abstract class AutomagicKernel extends Kernel
         $autoloadFile = 'autoload.yml';
         
         $bundles = array();
-        
         $parsedAutoloadFiles = array();
         
         $finder = new Finder();
@@ -45,8 +44,6 @@ abstract class AutomagicKernel extends Kernel
         $parsedAutoloadFiles = (count($parsedAutoloadFiles) == 1) ? $parsedAutoloadFiles[0] : $parsedAutoloadFiles;
         
         $processedConfiguration = $processor->processConfiguration($configuration, $parsedAutoloadFiles);
-        
-        //print_r($processedConfiguration);
         
         foreach ($processedConfiguration as $autoloadBundles => $bundleArray)
         {
