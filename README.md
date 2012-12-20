@@ -1,4 +1,4 @@
 AutomagicKernelBundle
 =====================
 
-AutomagicKernelBundle - AirOS Kernel using AutomagicLib
+AutomagicKernelBundle - AirOS Kernel using Automagic Bundle Loading
